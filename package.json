@@ -1,0 +1,17 @@
+{
+  "name": "cypress-demo",
+  "version": "1.0.0",
+  "description": "tests proyect - cypress practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open",
+    "test-edge": "cypress run --spec cypress/e2e/smoketestbank.cy.js --browser edge",
+    "test-chrome": "cypress run --spec cypress/e2e/smoketestbank.cy.js --browser chrome",
+    "test-firefox": "cypress run --spec cypress/e2e/smoketestbank.cy.js --browser firefox"
+  },
+  "author": "Marycielo Pariona",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^10.3.1"
+  }
+}
